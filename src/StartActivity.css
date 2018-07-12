@@ -1,0 +1,78 @@
+@media all and (max-width: 800px) {
+    #startActivity {
+        background-color: #f5f5f5;
+    }
+    .startActivityMainArea {
+        background-color: white;
+        padding-bottom: 22px;
+        box-shadow: 2px 2px 15px -4px #a1a1a1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .startActivitySubtitle {
+        color: #707070;
+        font-weight: 500;
+    }
+    .openLoginWindow, .openRegisterWindow {
+        width: 80%;
+        max-width: 300px;
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 24px;
+        margin: 12px;
+    }
+    .openLoginWindow {
+        border: 2px solid #123CA9;
+        background-color: white;
+        color: #123CA9;
+    }
+    .startActivityButtonWrap {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 648px;
+    }
+    .startActivityLogoWrap {
+        max-width: 600px;
+    }
+}
+@media all and (min-width: 800px) {
+    #startActivity {
+        background-color: #f5f5f5;
+    }
+    .startActivityMainArea {
+        background-color: white;
+        padding-bottom: 22px;
+        box-shadow: 2px 2px 15px -4px #a1a1a1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .startActivitySubtitle {
+        color: #707070;
+        font-weight: 500;
+    }
+    .openLoginWindow, .openRegisterWindow {
+        width: 80%;
+        max-width: 300px;
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 24px;
+        margin: 12px;
+    }
+    .openLoginWindow {
+        border: 2px solid #123CA9;
+        background-color: white;
+        color: #123CA9;
+    }
+    .startActivityButtonWrap {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 648px;
+    }
+    .startActivityLogoWrap {
+        max-width: 600px;
+    }
+}

@@ -1,0 +1,40 @@
+<!-- [AIV_SHORT]  Build version: 1.0.0 - Saturday, June 16th, 2018, 12:27:47 PM  --> 
+ 
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Sample App</title>
+        <style>
+            @keyframes loaderspin {
+                from {transform: rotate(0deg)}
+                to {transform: rotate(720deg)}
+            }
+            @-webkit-keyframes loaderspin {
+                from {transform: rotate(0deg)}
+                to {transform: rotate(720deg)}
+            }
+            #mainLoadingSpinner {
+                height: 60px;
+                width: 60px;
+                border-radius: 12px;
+                background-color: #c1c1c1;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -30px;
+                margin-left: -30px;
+                -webkit-animation: loaderspin 1.4s infinite;
+                animation: loaderspin 1.4s infinite;
+            }
+            
+        </style>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+    <body style="background-color:#f1f1f1">
+        <div id="mainLoadingSpinner"></div>
+        <div id='root' style="opacity:0;height:100vh;width:100%;background-color:white"></div>
+    </body>
+</html>
+ 

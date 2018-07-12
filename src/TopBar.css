@@ -1,0 +1,42 @@
+.mainTopBar {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 1px 10px -2px #a1a1a1;
+}
+.mainTopBarInner {
+    background-color: transparent;
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    height: 46px;
+    padding-top: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+}
+.leftBarArea {
+    display: flex;
+    justify-content: center;
+}
+.mainTopBarTitle {
+    margin: 0px;
+    line-height: 36px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.mainTopBarMenuButton, .mainTopBarSearchButton {
+    height: 36px;
+    width: 36px;
+    padding: 0px;
+    margin: 0px 12px;
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+}
+.mainTopBarMenuButton i, .mainTopBarSearchButton i {
+    font-size: 22px !important;
+    margin: 0px !important;
+}
+.mainTopBarMenuButton:hover, .mainTopBarSearchButton:hover {
+    background-color: #f5f5f5;
+}

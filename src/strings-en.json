@@ -1,0 +1,21 @@
+{
+    "subjects": [
+        "English",
+        "Math",
+        "Czech",
+        "Science",
+        "Geography",
+        "Spanish",
+        "French",
+        "German"
+    ],
+    "weekDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ]
+}

@@ -1,0 +1,17 @@
+.gradeAssignmentWrap {
+    position: relative;
+}
+#gradeAssignmentWeight {
+    
+}
+.gradeAssignmentWrap ul {
+    list-style-type: none;
+}
+.gradeAssignmentWrap ul li p {
+    display: inline-block;
+}
+.gradeAssignmentSubmit {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

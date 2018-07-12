@@ -1,0 +1,24 @@
+.searchWidgetWrap {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 8px;
+    height: 36px;
+}
+.sWWOpen {
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    z-index: 10;
+}
+.searchWidgetExpandedIcon {
+    margin-top: 6px;
+}
+.searchWidgetInput {
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.searchWidgetInput:focus {
+    border: none;
+}

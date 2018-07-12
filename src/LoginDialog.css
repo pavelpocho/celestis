@@ -1,0 +1,85 @@
+
+.loginDialog {
+    margin: 5px auto;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.internalLogin, .externalLogin {
+    padding: 12px 18px;
+}
+.internalLoginTitle, .externalLoginTitle {
+    font-size: 16px;
+    padding: 12px;
+    text-align: center;
+}
+.internalLogin input {
+    font-weight: bold;
+}
+.internalLogin p, .externalLogin p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4px 0px;
+}
+.internalLogin div {
+    position: relative;
+}
+#loginUsername, #loginPassword {
+    width: 100%;
+}
+.stayLoggedWrap {
+    display: flex;
+}
+.stayLoggedWrap p {
+    color: #123ca9;
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+}
+.stayLoggedWrap input {
+    height: 20px;
+    width: 20px;
+    margin: 12px;
+}
+.inputTitle {
+    color: #123CA9;
+    margin-top: 8px !important;
+}
+.externalLoginButton {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px -2px #a1a1a1;
+    background-color: white;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    margin: 8px auto;
+    min-width: 220px;
+}
+.externalLoginButton:hover {
+    background-color: #eeeeee;
+}
+.externalLoginButton img {
+    height: 28px;
+    width: 28px;
+    margin: 6px 0px;
+}
+.forgotPassword {
+    background-color: #ececec;
+    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 32px auto 0px;
+}
+.forgotPassword:hover {
+    background-color: #f5f5f5;
+    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 32px auto 0px;
+}
